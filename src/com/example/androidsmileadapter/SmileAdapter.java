@@ -45,10 +45,10 @@ public class SmileAdapter extends BaseAdapter {
 				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
 		View v = inflater.inflate(R.layout.smile_details, null);
-		//
+
 		TextView textName = (TextView) v.findViewById(R.id.name);
 		textName.setText(smile.name);
-		//
+
 		ImageView img = (ImageView) v.findViewById(R.id.img);
 		img.setImageResource(smile.getImage());
 

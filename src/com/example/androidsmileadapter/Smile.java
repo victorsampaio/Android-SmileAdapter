@@ -1,6 +1,5 @@
 package com.example.androidsmileadapter;
 
-
 public class Smile {
 	public static final int HAPPY = 0;
 	public static final int SAD = 1;
